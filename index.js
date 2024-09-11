@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const fs = require('fs');
+const axios = require('axios');
 
 // Load environment variables from .env file
 dotenv.config();
